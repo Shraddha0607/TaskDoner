@@ -9,7 +9,7 @@ namespace TaskDoner.Controllers;
 [Route("/[controller]")]
 public class TaskController : ControllerBase
 {
-    private readonly ITaskService taskService;
+    private readonly ITaskService taskService ;
     private readonly ILogger logger;
 
     public TaskController(ITaskService taskService,
