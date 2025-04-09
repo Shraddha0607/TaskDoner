@@ -5,7 +5,7 @@ namespace TaskDoner.Data;
 
 public class TaskDbContext : DbContext
 {
-    public TaskDbContext(DbContextOptions options) : base(options)
+    public TaskDbContext(DbContextOptions<TaskDbContext> options) : base(options)
     {
     }
 
